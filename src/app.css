@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --blue: #4f46e5;
+  --amber: #f59e0b;
+  --rose: #e11d48;
+  --violet: #7c3aed;
+  --emerald: #059669;
+  --gray: #4b5563;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+::selection {
+  background-color: #f4f4f5;
+}
